@@ -6,13 +6,13 @@
 
 let person_name: string=` \t Erum Adil \n `  ;
 console.log(person_name);
-let stripped :string = person_name.trim();
+let stripped :string = person_name.trim();  //delete white spaces
 console.log("My name is :" , stripped);
 
 // STRIPPING Method;
 
 
-// let Person-Name ="    \t ERUM WARIS \n    "  ;
-// console.log("Name With Whitespaces:", Person-Name);
-// let strippedName =  Person-Name .trim();
-// console.log("Stripped Name:", strippedName);
+let Person_Name ="    \t ERUM WARIS \n    "  ;
+console.log("Name With Whitespaces:", Person_Name);
+let strippedName =  Person_Name .trim();    //delete white spaces
+console.log("Stripped Name:", strippedName);
